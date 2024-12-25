@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+     /* BOILERPLATE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+      /* BODY */
+
+html body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+           
+            /* NAV BAR */
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+}
+.nav-h1{
+    color: sienna;
+    font-size: 20px;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.options i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+ 
+    /* HERO SECTION */
+
+    .herosection{
+        height: 500px;
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+
+    }
+    .hero-left{
+        height: 450px;
+        width: 50%;
+    padding-left: 50px;
+    padding-top: 120px;
+    
+    }
+    .hero-para{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .hero-h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .hero-h1 span{
+        color: sienna;
+    }
+    .hero-btn{
+        margin-top: 10px;
+    }
+    .hero-btn button{
+        height: 50px;
+        width: 250px;
+        background-color: sienna;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .hero-right{
+        height: 450px;
+        width: 50%;
+        padding-top: 20px;
+        padding-left: 160px;
+      
+    }
+
+      /* SHOPS Part */
+
+      .shops{
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+      }
+      .shops-h1{
+        font-size: 25px;
+        text-align: center;
+      }
+      .shops-h1 span{
+        color: sienna;
+      }
+
+      .shop-boxes{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 70px;
+      }
+      .shop-box-1{
+        height: 400px;
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+      }
+      .shop-box-1-h3{
+        color: black;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .shops-icon{
+        color: rgb(227, 191, 8);
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 5px;
+      }
+      .shops-btn{
+        margin-top: 10px;
+        margin-left: 30px;
+      }
+      .shops-btn button{
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        border: none;
+        background-color: sienna;
+        color: white;
+        font-size: 20px;
+      }
+      .image{
+        height: 250px;
+        width: 300px;
+        background-color: gray;
+       border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border: 2px solid white;
+        background-image: url("shirt.png");
+        background-size: cover;
+      }
+      .shop-box-2{
+        height: 400px;
+        width: 300px;
+        background-color: gray;
+        border-radius: 20px;
+      }
+      .shop-box-3{
+        height: 400px;
+        width: 300px;
+        background-color: gray;
+        border-radius: 20px;
+      } 
